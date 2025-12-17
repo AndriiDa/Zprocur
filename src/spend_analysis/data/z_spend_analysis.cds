@@ -3,7 +3,7 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Spend Analysis'
-define view Z_SpendAnalysis as select from spendanalysis {
+define view Z_SpendAnalysis as select from zspendanalysis {
   key id,
   supplier_id,
   spend_category,

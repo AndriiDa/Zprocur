@@ -3,7 +3,7 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Contract Management'
-define view Z_ContractManagement as select from contractmanagement {
+define view Z_ContractManagement as select from zcontractmgmt {
   key id,
   supplier_id,
   contract_start_date,

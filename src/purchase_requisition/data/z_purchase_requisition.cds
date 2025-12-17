@@ -3,7 +3,7 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Purchase Requisition'
-define view Z_PurchaseRequisition as select from purchaserequisition {
+define view Z_PurchaseRequisition as select from zpurreq {
   key id,
   item,
   quantity,
@@ -13,5 +13,8 @@ define view Z_PurchaseRequisition as select from purchaserequisition {
   created_by,
   created_at,
   approved_by,
-  approved_at
+  approved_at,
+
+  composition [0..*] of Z_PurchaseOrder as _PurchaseOrder on $projection.id = _PurchaseOrder.purchase_requisition_id,
+  composition [0..*] of Z_DynamicSourcing as _DynamicSourcing on $projection.id = _DynamicSourcing.purchase_requisition_id
 }

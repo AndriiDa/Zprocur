@@ -3,7 +3,7 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Inventory Management'
-define view Z_InventoryManagement as select from inventorymanagement {
+define view Z_InventoryManagement as select from zinventory {
   key id,
   item_id,
   quantity_on_hand,

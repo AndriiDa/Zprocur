@@ -3,7 +3,7 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Dynamic Sourcing'
-define view Z_DynamicSourcing as select from dynamicsourcing {
+define view Z_DynamicSourcing as select from zdynsrc {
   key id,
   purchase_requisition_id,
   supplier_id,

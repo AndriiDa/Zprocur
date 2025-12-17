@@ -3,7 +3,7 @@
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'Invoice and Payment'
-define view Z_InvoiceAndPayment as select from invoiceandpayment {
+define view Z_InvoiceAndPayment as select from zinvoice {
   key id,
   purchase_order_id,
   invoice_number,
