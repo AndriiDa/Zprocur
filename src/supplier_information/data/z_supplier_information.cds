@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZSUPPLIER_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Supplier Information'
 define view Z_SupplierInformation as select from zsupplierinfo {
   key id,

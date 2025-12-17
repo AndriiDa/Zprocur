@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZGOODSREC_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Goods Receipt'
 define view Z_GoodsReceipt as select from zgoodsreceipt {
   key id,

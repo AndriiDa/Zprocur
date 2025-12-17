@@ -1,0 +1,10 @@
+COLUMN TABLE "zgoodsreceipt" (
+  "id" NVARCHAR(36) NOT NULL,
+  "purchase_order_id" NVARCHAR(36),
+  "item_id" NVARCHAR(36),
+  "quantity_received" INTEGER,
+  "receipt_date" TIMESTAMP,
+  "created_by" NVARCHAR(12),
+  "created_at" TIMESTAMP,
+  PRIMARY KEY ("id")
+)

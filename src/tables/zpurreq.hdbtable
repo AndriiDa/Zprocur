@@ -1,0 +1,13 @@
+COLUMN TABLE "zpurreq" (
+  "id" NVARCHAR(36) NOT NULL,
+  "item" NVARCHAR(255),
+  "quantity" INTEGER,
+  "price" DECIMAL(15, 2),
+  "reason_for_purchase" NVARCHAR(255),
+  "status" NVARCHAR(20),
+  "created_by" NVARCHAR(12),
+  "created_at" TIMESTAMP,
+  "approved_by" NVARCHAR(12),
+  "approved_at" TIMESTAMP,
+  PRIMARY KEY ("id")
+)

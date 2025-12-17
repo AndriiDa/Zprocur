@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZPURCHORD_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Purchase Order'
 define view Z_PurchaseOrder as select from zpurchord {
   key id,

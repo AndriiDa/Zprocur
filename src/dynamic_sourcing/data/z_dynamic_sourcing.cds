@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZDYNAMICSRC_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Dynamic Sourcing'
 define view Z_DynamicSourcing as select from zdynsrc {
   key id,

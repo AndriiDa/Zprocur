@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZCONTRACT_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Contract Management'
 define view Z_ContractManagement as select from zcontractmgmt {
   key id,

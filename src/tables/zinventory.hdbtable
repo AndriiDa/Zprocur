@@ -1,0 +1,9 @@
+COLUMN TABLE "zinventory" (
+  "id" NVARCHAR(36) NOT NULL,
+  "item_id" NVARCHAR(36),
+  "quantity_on_hand" INTEGER,
+  "reorder_level" INTEGER,
+  "last_updated_by" NVARCHAR(12),
+  "last_updated_at" TIMESTAMP,
+  PRIMARY KEY ("id")
+)

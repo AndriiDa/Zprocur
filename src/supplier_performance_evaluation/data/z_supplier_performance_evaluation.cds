@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZSUPPLPERF_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Supplier Performance Evaluation'
 define view Z_SupplierPerformanceEvaluation as select from zsupplierperf {
   key id,

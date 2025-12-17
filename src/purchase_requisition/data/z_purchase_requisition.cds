@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZPURCHREQ_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Purchase Requisition'
 define view Z_PurchaseRequisition as select from zpurreq {
   key id,

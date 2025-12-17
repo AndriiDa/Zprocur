@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZINVOICE_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Invoice and Payment'
 define view Z_InvoiceAndPayment as select from zinvoice {
   key id,

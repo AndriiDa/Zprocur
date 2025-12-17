@@ -1,0 +1,5 @@
+CLASS zbp_supplier_performance_evaluation DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF Z_SupplierPerformanceEvaluation.
+ENDCLASS.
+
+CLASS zbp_supplier_performance_evaluation IMPLEMENTATION.
+ENDCLASS.

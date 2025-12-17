@@ -1,0 +1,5 @@
+CLASS zbp_contract_management DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF Z_ContractManagement.
+ENDCLASS.
+
+CLASS zbp_contract_management IMPLEMENTATION.
+ENDCLASS.

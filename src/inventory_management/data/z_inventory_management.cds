@@ -1,7 +1,7 @@
 @AbapCatalog.sqlViewName: 'ZINVENTORY_V'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
-@AccessControl.authorizationCheck: #NOT_REQUIRED
+@AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Inventory Management'
 define view Z_InventoryManagement as select from zinventory {
   key id,
