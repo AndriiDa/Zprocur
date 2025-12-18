@@ -1,0 +1,10 @@
+COLUMN TABLE "zdynsrc" (
+  "id" NVARCHAR(36) NOT NULL,
+  "purchase_requisition_id" NVARCHAR(36),
+  "supplier_id" NVARCHAR(36),
+  "bid_amount" DECIMAL(15, 2),
+  "status" NVARCHAR(20),
+  "created_by" NVARCHAR(12),
+  "created_at" TIMESTAMP,
+  PRIMARY KEY ("id")
+)

@@ -1,0 +1,15 @@
+COLUMN TABLE "zsupplierinfo" (
+  "id" NVARCHAR(36) NOT NULL,
+  "name" NVARCHAR(255),
+  "contact_person" NVARCHAR(255),
+  "contact_email" NVARCHAR(255),
+  "contact_phone" NVARCHAR(50),
+  "payment_details" NVARCHAR(255),
+  "performance_history" NVARCHAR(255),
+  "status" NVARCHAR(20),
+  "created_by" NVARCHAR(12),
+  "created_at" TIMESTAMP,
+  "approved_by" NVARCHAR(12),
+  "approved_at" TIMESTAMP,
+  PRIMARY KEY ("id")
+)

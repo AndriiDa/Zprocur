@@ -1,0 +1,5 @@
+CLASS zbp_invoice_and_payment DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF Z_InvoiceAndPayment.
+ENDCLASS.
+
+CLASS zbp_invoice_and_payment IMPLEMENTATION.
+ENDCLASS.

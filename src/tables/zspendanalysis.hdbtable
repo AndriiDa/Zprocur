@@ -1,0 +1,10 @@
+COLUMN TABLE "zspendanalysis" (
+  "id" NVARCHAR(36) NOT NULL,
+  "supplier_id" NVARCHAR(36),
+  "spend_category" NVARCHAR(255),
+  "amount" DECIMAL(15, 2),
+  "spend_date" TIMESTAMP,
+  "created_by" NVARCHAR(12),
+  "created_at" TIMESTAMP,
+  PRIMARY KEY ("id")
+)

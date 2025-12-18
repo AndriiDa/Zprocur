@@ -1,0 +1,10 @@
+COLUMN TABLE "zsupplierperf" (
+  "id" NVARCHAR(36) NOT NULL,
+  "supplier_id" NVARCHAR(36),
+  "performance_metric" NVARCHAR(255),
+  "score" INTEGER,
+  "evaluation_date" TIMESTAMP,
+  "created_by" NVARCHAR(12),
+  "created_at" TIMESTAMP,
+  PRIMARY KEY ("id")
+)

@@ -1,0 +1,11 @@
+COLUMN TABLE "zpurchord" (
+  "id" NVARCHAR(36) NOT NULL,
+  "purchase_requisition_id" NVARCHAR(36),
+  "supplier_id" NVARCHAR(36),
+  "delivery_date" TIMESTAMP,
+  "payment_terms" NVARCHAR(50),
+  "status" NVARCHAR(20),
+  "created_by" NVARCHAR(12),
+  "created_at" TIMESTAMP,
+  PRIMARY KEY ("id")
+)

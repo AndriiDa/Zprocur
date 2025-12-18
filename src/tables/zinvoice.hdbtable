@@ -1,0 +1,13 @@
+COLUMN TABLE "zinvoice" (
+  "id" NVARCHAR(36) NOT NULL,
+  "purchase_order_id" NVARCHAR(36),
+  "invoice_number" NVARCHAR(50),
+  "invoice_date" TIMESTAMP,
+  "invoice_amount" DECIMAL(15, 2),
+  "payment_due_date" TIMESTAMP,
+  "payment_terms" NVARCHAR(50),
+  "status" NVARCHAR(20),
+  "created_by" NVARCHAR(12),
+  "created_at" TIMESTAMP,
+  PRIMARY KEY ("id")
+)

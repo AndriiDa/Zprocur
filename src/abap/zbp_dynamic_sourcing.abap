@@ -1,0 +1,5 @@
+CLASS zbp_dynamic_sourcing DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF Z_DynamicSourcing.
+ENDCLASS.
+
+CLASS zbp_dynamic_sourcing IMPLEMENTATION.
+ENDCLASS.
